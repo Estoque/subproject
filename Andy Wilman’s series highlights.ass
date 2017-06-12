@@ -1,0 +1,66 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+Collisions: Normal
+PlayResX: 1280
+PlayResY: 720
+Audio URI: F:\20x06\Transmission – BBC Top Gear Andy Wilman’s series highlights « - BBC Top Gear.mp4
+Video Zoom Percent: 1
+Scroll Position: 0
+Active Line: 0
+Video File: F:\20x06\Transmission – BBC Top Gear Andy Wilman’s series highlights « - BBC Top Gear.mp4
+Video Aspect Ratio: c1.77778
+Video Position: 96
+Last Style Storage: Default
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: 제레미 대사,맑은 고딕,35,&H00FFFFFF,&H000000FF,&H64000000,&H00000000,-1,0,0,0,100,100,0,0,3,2,0,2,10,10,10,1
+Style: 제임스 대사,맑은 고딕,35,&H008FFDFF,&H000000FF,&H64000000,&H00000000,-1,0,0,0,100,100,0,0,3,1,0,2,10,10,10,1
+Style: 리처드 대사,맑은 고딕,35,&H00FFFEA4,&H000000FF,&H64000000,&H00000000,-1,0,0,0,100,100,0,0,3,1,0,2,10,10,10,1
+Style: 이름,맑은 고딕,40,&H00FFFFFF,&H000000FF,&H64000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,10,10,10,1
+Style: 직책,맑은 고딕,40,&H00FFFFFF,&H000000FF,&H64000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,10,10,10,1
+Style: 제작자 표시,HelveticaNeueLT Pro 107 XBlkCn,36,&H0065FDB1,&H000000FF,&H005B2D02,&H00000000,-1,-1,0,0,185,130,0,0,1,1,1,2,10,10,20,1
+Style: topgear water mark,HelveticaNeueLT Pro 107 XBlkCn,15,&H64FFFFFF,&H000000FF,&H64000000,&HFF000000,0,-1,0,0,185,130,0,0,1,1,2,9,10,45,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:02:05.15,topgear water mark,,0,0,0,,est0que.tistory.com
+Dialogue: 0,0:00:00.00,0:00:02.76,제작자 표시,,0,0,0,,Andy Wilman’s series highlights\N Estoque - est0que.tistory.com
+Dialogue: 0,0:00:02.89,0:00:05.52,제레미 대사,,0,0,0,,내가 6주 전에 뭐라고 했더라? 
+Dialogue: 0,0:00:03.69,0:00:07.76,이름,,0,0,0,,{\fad(800,800)}{\be1}{\pos(316,514)}앤디 윌맨
+Dialogue: 0,0:00:03.69,0:00:07.76,직책,,0,0,0,,{\fad(800,800)}{\be1\pos(317,554)}{\pos(316,514)}총 제작자
+Dialogue: 0,0:00:05.52,0:00:08.34,제레미 대사,,0,0,0,,첫번째랑 마지막 것만 보고 나머지는 보지 말라고 했잖아. 
+Dialogue: 0,0:00:08.34,0:00:08.78,제임스 대사,,0,0,0,,맞아요 
+Dialogue: 0,0:00:08.78,0:00:10.27,제레미 대사,,0,0,0,,그거 진짜로 믿은사람들 싫으다.
+Dialogue: 0,0:00:11.32,0:00:13.25,제레미 대사,,0,0,0,,왜냐면 엄청 많은 사람들이 컨트리 파이어를 봤으니까
+Dialogue: 0,0:00:13.49,0:00:15.60,제레미 대사,,0,0,0,,시리즈 하이라이트라...
+Dialogue: 0,0:00:15.60,0:00:20.14,제레미 대사,,0,0,0,,나는 시리즈가 다시 시작 된게 좋았지, 왜냐면 만드는데 씨X 힘들었으니까
+Dialogue: 0,0:00:20.60,0:00:27.29,제레미 대사,,0,0,0,,하지만, 내가 예상했듯이 역경을 겪고 나면 좋은 일이 생기는것 같아. 
+Dialogue: 0,0:00:27.75,0:00:30.24,제레미 대사,,0,0,0,,정말 정말 좋은 일이 많이 찾아오지 
+Dialogue: 0,0:00:30.24,0:00:32.40,제레미 대사,,0,0,0,,내 생각에는 견인차는 깜짝 놀랄만한 일이었지. 
+Dialogue: 0,0:00:32.40,0:00:35.93,제레미 대사,,0,0,0,,제임스, 뒤의 풍경이 내가 생각하는 것만큼 안 좋아?
+Dialogue: 0,0:00:36.60,0:00:41.40,제임스 대사,,0,0,0,,글쎼, 이렇게 말해 두지, 방금 내가 왼쪽 벽을 밟았고 네놈의 휴대용 화장실도 밟았어 
+Dialogue: 0,0:00:44.30,0:00:45.92,제레미 대사,,0,0,0,,그건 정말 재밌는 거였지 
+Dialogue: 0,0:00:45.92,0:00:48.75,제레미 대사,,0,0,0,,왜냐면 참신했거든, 호버밴보다 참신했어.
+Dialogue: 0,0:00:48.96,0:00:50.54,제레미 대사,,0,0,0,,그건 거대한 코미디 영화였으니까 
+Dialogue: 0,0:00:50.54,0:00:51.57,제레미 대사,,0,0,0,,자 출발 
+Dialogue: 0,0:00:51.57,0:00:52.82,제레미 대사,,0,0,0,,이럴수가!!!
+Dialogue: 0,0:00:54.61,0:00:56.01,제레미 대사,,0,0,0,,추력을 작동시킬게!
+Dialogue: 0,0:00:56.01,0:00:56.98,제임스 대사,,0,0,0,,성공이야!
+Dialogue: 0,0:00:56.98,0:00:58.20,리처드 대사,,0,0,0,,성공이야!
+Dialogue: 0,0:00:57.65,0:01:00.07,제레미 대사,,0,0,0,,물에 떴다!! 오 시발 
+Dialogue: 0,0:01:00.07,0:01:01.14,제레미 대사,,0,0,0,,물에 잠기고 있어 
+Dialogue: 0,0:01:01.66,0:01:05.41,제레미 대사,,0,0,0,,그리고 해먼드와 세스토 엘레맨토가 했던 작은 공연 
+Dialogue: 0,0:01:05.41,0:01:09.06,제레미 대사,,0,0,0,,누가 알았겠어? 그런 작은 것들이 갑자기 튀어나와서 사람을 놀라게 만들지 
+Dialogue: 0,0:01:15.89,0:01:18.51,제레미 대사,,0,0,0,,스페인은 내가 생각했던것보다 존나 몇십배는 더 재밌었지
+Dialogue: 0,0:01:19.29,0:01:22.48,제레미 대사,,0,0,0,,왜냐면 3대의 자동차가 텅텅 빈곳에서 돌아다녔으니까 
+Dialogue: 0,0:01:23.00,0:01:25.79,제레미 대사,,0,0,0,,A4 종이 위에서는 그렇게 좋아보이지 않았는데 말야.
+Dialogue: 0,0:01:25.79,0:01:27.74,제레미 대사,,0,0,0,,하지만....
+Dialogue: 0,0:01:27.74,0:01:30.64,제레미 대사,,0,0,0,,표면상으로는 편안하고 굉장히 보기 좋은 영상이었지 
+Dialogue: 0,0:01:38.29,0:01:40.11,제레미 대사,,0,0,0,,그리고 우리는 좀 더 성숙한짓도 했지 
+Dialogue: 0,0:01:58.71,0:02:00.43,제레미 대사,,0,0,0,,재밌는게 존나 많았던 것 같어 

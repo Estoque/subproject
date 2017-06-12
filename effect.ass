@@ -1,0 +1,112 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+Collisions: Normal
+PlayResX: 640
+PlayResY: 480
+Scroll Position: 0
+Active Line: 3
+Video Zoom Percent: 1
+Video File: ?dummy:23.976000:40000:640:480:47:163:254:
+Video Aspect Ratio: 0
+Video Position: 125
+Last Style Storage: Default
+YCbCr Matrix: None
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default2-furigana,Yoon 윤고딕 540_TT,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: Default-furigana,Arial,10,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+Style: Default,Yoon 윤고딕 540_TT,70,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: Default2,Yoon 윤고딕 540_TT,70,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,karaoke,"*500" is fade in constant; all characters appear within 500 millisecond.
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template syl char,{\move($x,$y,$x,!$y-50!)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}!retime("line",(syl.center/line.width)*1000)!{\an5\pos($center,$middle)\fad(300,0)}
+Comment: 0,0:00:00.00,0:00:00.00,Default2,,0,0,0,template line,{\an5\pos($center,$middle)\fscx100\fscy100\t(0,500,\fscx500\fscy500)\fad(0,3000)\q2\be10}
+Comment: 0,0:00:00.00,0:00:05.00,Default,,0,0,0,karaoke,{\be0}테스트 문{\be1}장 
+Comment: 0,0:00:05.00,0:00:07.00,Default2,,0,0,0,karaoke,테스트 문장 
+Dialogue: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,fx,{\move(-610,470,-610,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(-610,435)\fad(300,0)}"
+Dialogue: 0,0:00:00.01,0:00:00.00,Default,,0,0,0,fx,{\move(-590,470,-590,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(-590,435)\fad(300,0)}*
+Dialogue: 0,0:00:00.02,0:00:00.00,Default,,0,0,0,fx,{\move(-565,470,-565,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(-565,435)\fad(300,0)}5
+Dialogue: 0,0:00:00.04,0:00:00.00,Default,,0,0,0,fx,{\move(-537,470,-537,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(-537,435)\fad(300,0)}0
+Dialogue: 0,0:00:00.05,0:00:00.00,Default,,0,0,0,fx,{\move(-509,470,-509,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(-509,435)\fad(300,0)}0
+Dialogue: 0,0:00:00.07,0:00:00.00,Default,,0,0,0,fx,{\move(-486,470,-486,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(-486,435)\fad(300,0)}"
+Dialogue: 0,0:00:00.08,0:00:00.00,Default,,0,0,0,fx,{\move(-466,470,-466,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(-466,435)\fad(300,0)} 
+Dialogue: 0,0:00:00.09,0:00:00.00,Default,,0,0,0,fx,{\move(-450,470,-450,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(-450,435)\fad(300,0)}i
+Dialogue: 0,0:00:00.10,0:00:00.00,Default,,0,0,0,fx,{\move(-428,470,-428,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(-428,435)\fad(300,0)}s
+Dialogue: 0,0:00:00.11,0:00:00.00,Default,,0,0,0,fx,{\move(-403,470,-403,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(-403,435)\fad(300,0)} 
+Dialogue: 0,0:00:00.12,0:00:00.00,Default,,0,0,0,fx,{\move(-385,470,-385,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(-385,435)\fad(300,0)}f
+Dialogue: 0,0:00:00.13,0:00:00.00,Default,,0,0,0,fx,{\move(-360,470,-360,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(-360,435)\fad(300,0)}a
+Dialogue: 0,0:00:00.15,0:00:00.00,Default,,0,0,0,fx,{\move(-326,470,-326,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(-326,435)\fad(300,0)}d
+Dialogue: 0,0:00:00.17,0:00:00.00,Default,,0,0,0,fx,{\move(-293,470,-293,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(-293,435)\fad(300,0)}e
+Dialogue: 0,0:00:00.18,0:00:00.00,Default,,0,0,0,fx,{\move(-267,470,-267,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(-267,435)\fad(300,0)} 
+Dialogue: 0,0:00:00.19,0:00:00.00,Default,,0,0,0,fx,{\move(-250,470,-250,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(-250,435)\fad(300,0)}i
+Dialogue: 0,0:00:00.20,0:00:00.00,Default,,0,0,0,fx,{\move(-227,470,-227,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(-227,435)\fad(300,0)}n
+Dialogue: 0,0:00:00.22,0:00:00.00,Default,,0,0,0,fx,{\move(-201,470,-201,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(-201,435)\fad(300,0)} 
+Dialogue: 0,0:00:00.23,0:00:00.00,Default,,0,0,0,fx,{\move(-176,470,-176,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(-176,435)\fad(300,0)}c
+Dialogue: 0,0:00:00.25,0:00:00.00,Default,,0,0,0,fx,{\move(-144,470,-144,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(-144,435)\fad(300,0)}o
+Dialogue: 0,0:00:00.27,0:00:00.00,Default,,0,0,0,fx,{\move(-111,470,-111,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(-111,435)\fad(300,0)}n
+Dialogue: 0,0:00:00.28,0:00:00.00,Default,,0,0,0,fx,{\move(-79,470,-79,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(-79,435)\fad(300,0)}s
+Dialogue: 0,0:00:00.30,0:00:00.00,Default,,0,0,0,fx,{\move(-55,470,-55,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(-55,435)\fad(300,0)}t
+Dialogue: 0,0:00:00.31,0:00:00.00,Default,,0,0,0,fx,{\move(-30,470,-30,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(-30,435)\fad(300,0)}a
+Dialogue: 0,0:00:00.33,0:00:00.00,Default,,0,0,0,fx,{\move(4,470,4,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(4,435)\fad(300,0)}n
+Dialogue: 0,0:00:00.34,0:00:00.00,Default,,0,0,0,fx,{\move(29,470,29,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(29,435)\fad(300,0)}t
+Dialogue: 0,0:00:00.35,0:00:00.00,Default,,0,0,0,fx,{\move(47,470,47,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(47,435)\fad(300,0)};
+Dialogue: 0,0:00:00.36,0:00:00.00,Default,,0,0,0,fx,{\move(65,470,65,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(65,435)\fad(300,0)} 
+Dialogue: 0,0:00:00.37,0:00:00.00,Default,,0,0,0,fx,{\move(92,470,92,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(92,435)\fad(300,0)}a
+Dialogue: 0,0:00:00.39,0:00:00.00,Default,,0,0,0,fx,{\move(115,470,115,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(115,435)\fad(300,0)}l
+Dialogue: 0,0:00:00.39,0:00:00.00,Default,,0,0,0,fx,{\move(129,470,129,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(129,435)\fad(300,0)}l
+Dialogue: 0,0:00:00.40,0:00:00.00,Default,,0,0,0,fx,{\move(146,470,146,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(146,435)\fad(300,0)} 
+Dialogue: 0,0:00:00.42,0:00:00.00,Default,,0,0,0,fx,{\move(170,470,170,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(170,435)\fad(300,0)}c
+Dialogue: 0,0:00:00.43,0:00:00.00,Default,,0,0,0,fx,{\move(202,470,202,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(202,435)\fad(300,0)}h
+Dialogue: 0,0:00:00.45,0:00:00.00,Default,,0,0,0,fx,{\move(236,470,236,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(236,435)\fad(300,0)}a
+Dialogue: 0,0:00:00.47,0:00:00.00,Default,,0,0,0,fx,{\move(263,470,263,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(263,435)\fad(300,0)}r
+Dialogue: 0,0:00:00.48,0:00:00.00,Default,,0,0,0,fx,{\move(290,470,290,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(290,435)\fad(300,0)}a
+Dialogue: 0,0:00:00.50,0:00:00.00,Default,,0,0,0,fx,{\move(322,470,322,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(322,435)\fad(300,0)}c
+Dialogue: 0,0:00:00.51,0:00:00.00,Default,,0,0,0,fx,{\move(346,470,346,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(346,435)\fad(300,0)}t
+Dialogue: 0,0:00:00.52,0:00:00.00,Default,,0,0,0,fx,{\move(372,470,372,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(372,435)\fad(300,0)}e
+Dialogue: 0,0:00:00.54,0:00:00.00,Default,,0,0,0,fx,{\move(399,470,399,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(399,435)\fad(300,0)}r
+Dialogue: 0,0:00:00.55,0:00:00.00,Default,,0,0,0,fx,{\move(424,470,424,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(424,435)\fad(300,0)}s
+Dialogue: 0,0:00:00.56,0:00:00.00,Default,,0,0,0,fx,{\move(449,470,449,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(449,435)\fad(300,0)} 
+Dialogue: 0,0:00:00.58,0:00:00.00,Default,,0,0,0,fx,{\move(475,470,475,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(475,435)\fad(300,0)}a
+Dialogue: 0,0:00:00.60,0:00:00.00,Default,,0,0,0,fx,{\move(509,470,509,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(509,435)\fad(300,0)}p
+Dialogue: 0,0:00:00.61,0:00:00.00,Default,,0,0,0,fx,{\move(542,470,542,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(542,435)\fad(300,0)}p
+Dialogue: 0,0:00:00.63,0:00:00.00,Default,,0,0,0,fx,{\move(576,470,576,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(576,435)\fad(300,0)}e
+Dialogue: 0,0:00:00.65,0:00:00.00,Default,,0,0,0,fx,{\move(610,470,610,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(610,435)\fad(300,0)}a
+Dialogue: 0,0:00:00.66,0:00:00.00,Default,,0,0,0,fx,{\move(637,470,637,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(637,435)\fad(300,0)}r
+Dialogue: 0,0:00:00.67,0:00:00.00,Default,,0,0,0,fx,{\move(656,470,656,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(656,435)\fad(300,0)} 
+Dialogue: 0,0:00:00.69,0:00:00.00,Default,,0,0,0,fx,{\move(688,470,688,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(688,435)\fad(300,0)}w
+Dialogue: 0,0:00:00.71,0:00:00.00,Default,,0,0,0,fx,{\move(716,470,716,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(716,435)\fad(300,0)}i
+Dialogue: 0,0:00:00.71,0:00:00.00,Default,,0,0,0,fx,{\move(732,470,732,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(732,435)\fad(300,0)}t
+Dialogue: 0,0:00:00.73,0:00:00.00,Default,,0,0,0,fx,{\move(757,470,757,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(757,435)\fad(300,0)}h
+Dialogue: 0,0:00:00.74,0:00:00.00,Default,,0,0,0,fx,{\move(781,470,781,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(781,435)\fad(300,0)}i
+Dialogue: 0,0:00:00.75,0:00:00.00,Default,,0,0,0,fx,{\move(804,470,804,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(804,435)\fad(300,0)}n
+Dialogue: 0,0:00:00.77,0:00:00.00,Default,,0,0,0,fx,{\move(830,470,830,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(830,435)\fad(300,0)} 
+Dialogue: 0,0:00:00.78,0:00:00.00,Default,,0,0,0,fx,{\move(853,470,853,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(853,435)\fad(300,0)}5
+Dialogue: 0,0:00:00.79,0:00:00.00,Default,,0,0,0,fx,{\move(881,470,881,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(881,435)\fad(300,0)}0
+Dialogue: 0,0:00:00.81,0:00:00.00,Default,,0,0,0,fx,{\move(909,470,909,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(909,435)\fad(300,0)}0
+Dialogue: 0,0:00:00.82,0:00:00.00,Default,,0,0,0,fx,{\move(932,470,932,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(932,435)\fad(300,0)} 
+Dialogue: 0,0:00:00.84,0:00:00.00,Default,,0,0,0,fx,{\move(966,470,966,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(966,435)\fad(300,0)}m
+Dialogue: 0,0:00:00.86,0:00:00.00,Default,,0,0,0,fx,{\move(997,470,997,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(997,435)\fad(300,0)}i
+Dialogue: 0,0:00:00.86,0:00:00.00,Default,,0,0,0,fx,{\move(1012,470,1012,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(1012,435)\fad(300,0)}l
+Dialogue: 0,0:00:00.87,0:00:00.00,Default,,0,0,0,fx,{\move(1025,470,1025,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(1025,435)\fad(300,0)}l
+Dialogue: 0,0:00:00.88,0:00:00.00,Default,,0,0,0,fx,{\move(1039,470,1039,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(1039,435)\fad(300,0)}i
+Dialogue: 0,0:00:00.89,0:00:00.00,Default,,0,0,0,fx,{\move(1062,470,1062,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(1062,435)\fad(300,0)}s
+Dialogue: 0,0:00:00.91,0:00:00.00,Default,,0,0,0,fx,{\move(1094,470,1094,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(1094,435)\fad(300,0)}e
+Dialogue: 0,0:00:00.92,0:00:00.00,Default,,0,0,0,fx,{\move(1126,470,1126,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(1126,435)\fad(300,0)}c
+Dialogue: 0,0:00:00.94,0:00:00.00,Default,,0,0,0,fx,{\move(1158,470,1158,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(1158,435)\fad(300,0)}o
+Dialogue: 0,0:00:00.96,0:00:00.00,Default,,0,0,0,fx,{\move(1192,470,1192,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(1192,435)\fad(300,0)}n
+Dialogue: 0,0:00:00.98,0:00:00.00,Default,,0,0,0,fx,{\move(1225,470,1225,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(1225,435)\fad(300,0)}d
+Dialogue: 0,0:00:00.99,0:00:00.00,Default,,0,0,0,fx,{\move(1251,470,1251,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(1251,435)\fad(300,0)}.
+Dialogue: 0,0:00:00.08,0:00:05.00,Default,,0,0,0,fx,{\move(190,470,190,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(190,435)\fad(300,0)}테
+Dialogue: 0,0:00:00.26,0:00:05.00,Default,,0,0,0,fx,{\move(246,470,246,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(246,435)\fad(300,0)}스
+Dialogue: 0,0:00:00.44,0:00:05.00,Default,,0,0,0,fx,{\move(301,470,301,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(301,435)\fad(300,0)}트
+Dialogue: 0,0:00:00.55,0:00:05.00,Default,,0,0,0,fx,{\move(339,470,339,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(339,435)\fad(300,0)} 
+Dialogue: 0,0:00:00.67,0:00:05.00,Default,,0,0,0,fx,{\move(376,470,376,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(376,435)\fad(300,0)}문
+Dialogue: 0,0:00:00.85,0:00:05.00,Default,,0,0,0,fx,{\move(432,470,432,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(432,435)\fad(300,0)}장
+Dialogue: 0,0:00:00.97,0:00:05.00,Default,,0,0,0,fx,{\move(469,470,469,420)\fscx20\fscy20\t(0,500,\fscx100\fscy100)}{\an5\pos(469,435)\fad(300,0)} 
+Dialogue: 0,0:00:05.00,0:00:07.00,Default2,,0,0,0,fx,{\an5\pos(311,435)\fscx100\fscy100\t(0,500,\fscx500\fscy500)\fad(0,3000)\q2\be10}테스트 문장 
