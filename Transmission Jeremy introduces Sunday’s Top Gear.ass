@@ -1,0 +1,52 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+Collisions: Normal
+PlayResX: 1280
+PlayResY: 720
+Video Zoom Percent: 0.25
+Audio URI: E:\인코딩\새 폴더\Transmission – BBC Top Gear Video Jeremy introduces Sunday’s Top Gear « - 2.mp4
+Scroll Position: 17
+Active Line: 23
+Video File: E:\인코딩\새 폴더\Transmission – BBC Top Gear Video Jeremy introduces Sunday’s Top Gear « - 2.mp4
+Video Aspect Ratio: c1.77778
+Video Position: 3286
+Last Style Storage: Default
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: 제레미 대사,맑은 고딕,35,&H00FFFFFF,&H000000FF,&H64000000,&H00000000,-1,0,0,0,100,100,0,0,3,2,0,2,10,10,10,1
+Style: 제작자 표시,HelveticaNeueLT Pro 107 XBlkCn,36,&H00FD9665,&H000000FF,&H005B2D02,&H00000000,-1,-1,0,0,185,130,0,0,1,1,1,2,10,10,20,1
+Style: topgear water mark,HelveticaNeueLT Pro 107 XBlkCn,15,&H64FFFFFF,&H000000FF,&H64000000,&HFF000000,0,-1,0,0,185,130,0,0,1,1,2,9,10,45,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:02:17.45,topgear water mark,,0,0,0,,est0que.tistory.com
+Dialogue: 0,0:00:00.00,0:00:02.91,제작자 표시,,0,0,0,,Jeremy introduces Series 20 Episode 1 Top Gear \N Estoque - est0que.tistory.com
+Dialogue: 0,0:00:17.54,0:00:19.71,제레미 대사,,0,0,0,,저희가 전시해놓은 차량에 관해서 설명해드리겠습니다.\N
+Dialogue: 0,0:00:20.48,0:00:24.25,제레미 대사,,0,0,0,,이차는 힌두스탄 엠베서더고요 인도에서 택시로 쓰이는 차입니다.\N
+Dialogue: 0,0:00:24.25,0:00:29.08,제레미 대사,,0,0,0,,세계에서 가장 좋은 택시를 찾기 위해 해먼드가 진행한 과학실험에 사용된 차량입니다.\N
+Dialogue: 0,0:00:30.97,0:00:32.28,제레미 대사,,0,0,0,,아놔, 이건 말도 안 돼.\N
+Dialogue: 0,0:00:35.42,0:00:38.74,제레미 대사,,0,0,0,,여기는 제가 몰아본 신형 페라리 F12가 있습니다.\N
+Dialogue: 0,0:00:41.62,0:00:51.51,제레미 대사,,0,0,0,,음... 그리고 제가 한 로드테스트에서 약간 놀라운 결론을 내렸는데요, 그건 보시면 아실 듯 하고요\N
+Dialogue: 0,0:00:51.51,0:00:57.05,제레미 대사,,0,0,0,,여기에는 포드... 뭐더라 피에스타 ST가 있네요.\N
+Dialogue: 0,0:00:58.05,0:01:02.00,제레미 대사,,0,0,0,,저게 왜 스튜디오에 있는지 영문을 모르겠어요, 저번 주 프로그램에 나온 차인데 말이죠.\N
+Dialogue: 0,0:01:02.40,0:01:05.57,제레미 대사,,0,0,0,,스튜디오 감독한테 우리가 말을 해줘야 그제야 알 것 같네요.\N
+Dialogue: 0,0:01:05.57,0:01:10.71,제레미 대사,,0,0,0,,이것은 F3레이싱 카인데요 저희가 한 BAC모노 리뷰의 시작을 장식할 차량입니다.\N
+Dialogue: 0,0:01:15.14,0:01:16.65,제레미 대사,,0,0,0,,여기가 무대구요\N
+Dialogue: 0,0:01:17.05,0:01:19.57,제레미 대사,,0,0,0,,오, 여기 BAC 모노가 있네요.\N
+Dialogue: 0,0:01:21.74,0:01:27.48,제레미 대사,,0,0,0,,제가 말씀드렸듯이 스티그가 이차를 몰고 얼마나 빠를지를 알아볼 것이지만,
+Dialogue: 0,0:01:27.48,0:01:30.82,제레미 대사,,0,0,0,,장난 아니게 빠를 것 같진 않아요.\N
+Dialogue: 0,0:01:31.42,0:01:36.22,제레미 대사,,0,0,0,,왜냐면 2.3리터 4기통엔진을 얹고 있고 매우 가볍긴 하지만.\N
+Dialogue: 0,0:01:36.22,0:01:40.45,제레미 대사,,0,0,0,,출발할 때 우와앆! 하는 느낌이 날 정도로 빠르진 않아요.\N
+Dialogue: 0,0:01:40.97,0:01:44.22,제레미 대사,,0,0,0,,하지만, 정말 정말 아름답게 생긴 차입니다.\N
+Dialogue: 0,0:01:45.80,0:01:47.80,제레미 대사,,0,0,0,,의외로 품위 있게 생겼어요.\N
+Dialogue: 0,0:01:51.08,0:01:54.17,제레미 대사,,0,0,0,,코스워스 엔진을 얹고 체셔에서 만들어집니다.\N
+Dialogue: 0,0:01:56.25,0:01:58.48,제레미 대사,,0,0,0,,그렇게 나쁘지는 않을 것 같네요.\N
+Dialogue: 0,0:02:02.48,0:02:06.51,제레미 대사,,0,0,0,,제 생각에는 이번 주에 스튜디오에 보여드릴 차량 소개는 끝난 거 같네요\N
+Dialogue: 0,0:02:06.51,0:02:09.45,제레미 대사,,0,0,0,,이제... 관중만 오면 되겠네요.\N
+Dialogue: 0,0:02:10.91,0:02:15.57,제레미 대사,,0,0,0,,

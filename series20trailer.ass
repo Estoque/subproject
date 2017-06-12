@@ -1,0 +1,36 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Audio URI: F:\BLOG\Final Build\Top Gear Series 20 (2013)- Launch Trailer - BBC Two-360p.mp4
+Scroll Position: 0
+Active Line: 0
+Video Zoom Percent: 1.68056
+Video File: F:\BLOG\Final Build\Top Gear Series 20 (2013)- Launch Trailer - BBC Two-360p.mp4
+Video Aspect Ratio: c1.77778
+Video Position: 753
+Last Style Storage: Default
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: 제레미 대사,맑은 고딕,35,&H00FFFFFF,&H000000FF,&H64000000,&H00000000,-1,0,0,0,100,100,0,0,3,2,0,2,10,10,10,1
+Style: 제임스 대사,맑은 고딕,35,&H008FFDFF,&H000000FF,&H64000000,&H00000000,-1,0,0,0,100,100,0,0,3,1,0,2,10,10,10,1
+Style: 리처드 대사,맑은 고딕,35,&H00FFFEA4,&H000000FF,&H64000000,&H00000000,-1,0,0,0,100,100,0,0,3,1,0,2,10,10,10,1
+Style: topgear water mark,HelveticaNeueLT Pro 107 XBlkCn,15,&H64FFFFFF,&H000000FF,&H64000000,&HFF000000,0,-1,0,0,185,130,0,0,1,1,2,9,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:31.28,topgear water mark,,0,0,0,,est0que.tistory.com
+Dialogue: 0,0:00:00.28,0:00:01.54,제임스 대사,,0,0,0,,자, 준비하시고~
+Dialogue: 0,0:00:05.48,0:00:07.72,제레미 대사,,0,0,0,,음~ 필요한건 다 갖추고 있어요 
+Dialogue: 0,0:00:11.27,0:00:12.56,리처드 대사,,0,0,0,,아놔 이건 말도 안되
+Dialogue: 0,0:00:19.96,0:00:22.91,제레미 대사,,0,0,0,,난 하느님의 지령을 받고 왔어
+Dialogue: 0,0:00:23.17,0:00:24.68,제레미 대사,,0,0,0,,오직 톱기어 에서만,
+Dialogue: 0,0:00:24.68,0:00:26.41,제레미 대사,,0,0,0,,오직 BBC2에서만 만나실수 있습니다.
+Dialogue: 0,0:00:29.33,0:00:30.43,제레미 대사,,0,0,0,,{\pos(334.288,126.264)}재활용이 불가능한 매립 쓰래기 
